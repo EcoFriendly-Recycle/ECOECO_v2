@@ -33,7 +33,7 @@ public class MainPageController {
         System.out.println("faqDetailsPage");
     }
 
-    @GetMapping("/faqPage")
+    @GetMapping("/user/board/faqPage")
     public void faqPage() {
         System.out.println("faqPage");
     }
