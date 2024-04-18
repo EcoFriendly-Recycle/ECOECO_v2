@@ -19,7 +19,7 @@ mybatis:
   mapper-locations: mappers/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
     spring:
       mvc:
         static-path-pattern=/resources/static/**
-
